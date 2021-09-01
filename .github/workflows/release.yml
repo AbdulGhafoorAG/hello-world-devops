@@ -17,6 +17,7 @@ jobs:
         run: |
           echo "done!"
           pwd
+          cd apim
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
@@ -25,4 +26,4 @@ jobs:
           prerelease: false
           title: "Development Build"
           files: |
-            */swagger.yml
+            swagger.yml
