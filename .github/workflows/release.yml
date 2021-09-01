@@ -23,4 +23,5 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: true
           title: "Development Build"
-          file: apim/*.yml
+          files: |
+            apim/*.yml
